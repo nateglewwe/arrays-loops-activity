@@ -6,7 +6,12 @@
  * 3. After the loop, log out the total number of
  *    hobbies
  */
-
+let hobbies = ['piano', 'theater', 'dancing', 'gaming'];
+let index = 0;
+while (index < 4){
+     console.log(hobbies[index]);
+     index++;
+} console.log(hobbies.length);
 
 // Example output
 // 1. swimming
@@ -24,6 +29,15 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+let arrayColors = ['red','blue','green','teal'];
+let tealCount = 0;
+for (let colors of arrayColors) {
+     if (colors.includes ('teal')){
+          console.log(arrayColors);
+          tealCount = tealCount+1;
+     }
+console.log(tealCount);
+}
 
 
 // Example output
